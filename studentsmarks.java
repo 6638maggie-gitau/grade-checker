@@ -3,7 +3,7 @@ public class studentsmarks {
 
     public static void main(String [] args){
         Scanner input = new Scanner(System.in);
-        System.out.println("What's your name?:");
+        System.out.println("Enter your name?:");
         String name= input.nextLine();
 
         int [] marks= new int[3];
